@@ -2108,6 +2108,25 @@ html {
     height: inherit;
 }
 
+.info_title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0px;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 0px;
+}
+
+.info_wrapper {
+    margin-bottom: 20px;
+}
+
+.work_view {
+    padding: 5px;
+    border-radius: 3px;
+    color: #353535;
+    background: #ebebeb;
+}
+
 @media print {
     body,
     html {
