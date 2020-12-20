@@ -1015,6 +1015,9 @@
     .learn_icon.update_post .avatar {
         margin-right: initial;
     }
+    .faq_view .admin-padding:last-child {
+        margin-bottom: 100px;
+    }
 }
 
 @media all and (max-width: 240px) {
