@@ -461,9 +461,10 @@
         position: relative;
         top: 20px;
         padding: 20px 20px 40px 20px;
-        width: 90%;
+        width: 100%;
         transform: inherit;
         left: inherit;
+        box-shadow: none;
     }
     .img-top {
         z-index: auto!important;
