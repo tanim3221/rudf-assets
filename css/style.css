@@ -681,6 +681,10 @@ a:hover {
     /* height: 100%; */
 }
 
+.table-top {
+    margin-bottom: 40px;
+}
+
 div#browser {
     display: flex;
     justify-content: flex-start;

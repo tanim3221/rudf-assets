@@ -374,6 +374,22 @@ $(document).on('click', '#activity_log_view', function(e) {
     getDetailsViewInfo(url, modal, view);
 });
 
+
+$(document).on('click', '#view_month_info_all', function(e) {
+    e.preventDefault();
+    var id = $(this).data('id');
+    var year = $(this).data('year');
+    var name = $(this).data('name');
+    var modal = '#myModalActivityInfo';
+    var view = '#activity_view_info';
+    $('.modal_activity_view_info').html(name + ' - ' + year);
+    var url = 'qr_generate.php?payment_details_all&year=' +
+        year + '&id=' + id + '';
+    getDetailsViewInfo(url, modal, view);
+});
+
+
+
 function getDetailsViewInfo(url, modal, view) {
     $(modal).modal({
         show: true
